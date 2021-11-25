@@ -18,7 +18,7 @@ pipeline {
       stages {
         stage('stage3') {
           steps {
-            sh 'uname'
+            sh 'echo "hello, mounika world"'
 
   }
 }
