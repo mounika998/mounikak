@@ -15,10 +15,10 @@ pipeline {
         sh 'echo "hello, mounika"'
         git(url: 'https://github.com/mounika998/mounikak.git', branch: 'main', poll: true)
       }
-      stages {
-        stage('stage3') {
-          steps {
-            sh 'echo "hello, mounika world"'
+    
+        
+         
+   
           }
 
   }
